@@ -1,5 +1,5 @@
 #FROM ubuntu:22.04
-FROM python:slim-bullseye
+FROM python:3-slim-bullseye
 #FROM python:3.11-bullseye
 
 RUN apt update && apt-get install --no-install-recommends -y \
